@@ -1,0 +1,397 @@
+/*Header*/
+.encabezado {
+  background-image: linear-gradient(to bottom, deeppink, violet);
+}
+
+.logoArteSano {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.tituloPrincipal {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.btnBuscar {
+  background-color: rgb(142, 0, 207);
+  border-radius: 8px;
+  color: #ffffff;
+}
+.btnBuscar:hover {
+  background-color: deeppink;
+}
+
+header li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Subtitulo*/
+.subtituloPrincipal {
+  background-image: linear-gradient(to bottom, violet, rgb(238, 138, 191));
+}
+.subtituloPrincipal h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10%;
+}
+
+/*Carousel*/
+main {
+  background-color: #ffffff;
+}
+
+.subtituloCarru {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.precioCarru {
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+/*Novedades*/
+.novedades p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5%;
+  background-color: rgb(194, 255, 80);
+}
+
+/*Cards*/
+.card {
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.card h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card p {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+}
+
+.btnComprar {
+  background-color: rgb(238, 47, 255);
+  text-align: center;
+  color: #ffffff;
+}
+.btnComprar:hover {
+  background-color: fuchsia;
+  color: #ffffff;
+}
+
+/*Footer*/
+footer {
+  background-color: sandybrown;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.logoArteSano2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+footer h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+footer p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.redesLogos {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+footer small {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*tienda.html*/
+.tituloProductos h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5%;
+  background-color: rgb(194, 255, 80);
+}
+
+.subtituloProductos {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 4px;
+  background-color: lightpink;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.contenedorCardsTienda {
+  background-color: #ffffff;
+}
+
+/*nosotros.html*/
+.tituloNostros {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5%;
+  background-color: rgb(194, 255, 80);
+}
+
+.subtituloNostros {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.contenedorNosotros {
+  background-color: #ffffff;
+}
+.contenedorNosotros p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 3rem;
+}
+
+/*sucursales.html*/
+.contenedorSucursales {
+  background-color: #ffffff;
+  margin-bottom: 4rem;
+}
+.contenedorSucursales h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5%;
+  background-color: rgb(194, 255, 80);
+}
+.contenedorSucursales h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+.contenedorSucursales h3 {
+  margin-left: 2rem;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.contenedorSucursales p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-left: 2rem;
+  color: blue;
+}
+
+iframe {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  height: 80%;
+}
+
+/*contacto.html*/
+.bodyContacto {
+  background-color: #ffffff;
+}
+
+.tituloContacto {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5%;
+  background-color: rgb(194, 255, 80);
+}
+
+label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+
+input {
+  margin-left: 1rem;
+  width: 90%;
+  border-radius: 5px;
+  display: block;
+}
+
+select {
+  margin-left: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  border-radius: 8px;
+  display: block;
+  width: 90%;
+  height: 50%;
+  margin-left: 1rem;
+}
+
+.btnContacto {
+  background-color: rgb(103, 111, 189);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 2%;
+  border: solid rgb(103, 111, 189) 8px;
+  margin-left: 4rem;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.btnContacto:hover {
+  background-color: rgb(19, 19, 207);
+  color: #ffffff;
+}
+
+/*APLICO MEDIAS A VISTA CELULAR*/
+@media (max-width: 768px) {
+  .tituloPrincipal {
+    display: none;
+  }
+  .btnComprar {
+    background-color: rgb(238, 47, 255);
+    text-align: center;
+    color: #ffffff;
+  }
+  .btnComprar:hover {
+    background-color: fuchsia;
+    color: #ffffff;
+  }
+  .card {
+    width: 50%;
+  }
+}
+/*APLICO MEDIA QUERIES A VISTA TABLET**/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cardIndexMedia {
+    display: grid;
+    grid-template-columns: 2, 3fr;
+    grid-template-rows: 100px 100px 100px;
+  }
+  .novedades {
+    padding: 3%;
+    margin-bottom: 3rem;
+  }
+  .imgCarru {
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+  }
+  .tituloPrincipal {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  iframe {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 120%;
+  }
+  .card {
+    width: 25%;
+  }
+}
+/*APLICO MEDIA QUERIES A VISTA ESCRITORIO*/
+@media (min-width: 1024px) {
+  .imgCarru {
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+  }
+  .cardIndexMedia {
+    display: grid;
+    grid-template-columns: 3, 3fr;
+    grid-template-rows: 70px 70px 70px;
+    gap: 5px;
+    justify-items: center;
+  }
+  .btnComprar {
+    margin-left: 35%;
+  }
+  .subtituloPrincipal h1 {
+    font-size: 35px;
+    padding: 5%;
+  }
+  iframe {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    height: 200%;
+  }
+  .card {
+    margin-left: 5rem;
+  }
+  .novedades {
+    margin-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,39 @@
+/*sucursales.html*/
+
+.contenedorSucursales {
+  background-color: $color-fondo;
+  margin-bottom: 4rem;
+
+  h1 {
+    @include h1;
+    background-color: $color-texto;
+  }
+
+  h2 {
+    @include h2;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-left: 2rem;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 2rem;
+    color: blue;
+  }
+}
+
+iframe {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  height: 80%;
+}

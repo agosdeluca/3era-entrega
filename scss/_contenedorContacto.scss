@@ -1,0 +1,59 @@
+/*contacto.html*/
+.bodyContacto {
+    background-color: $color-fondo;
+}
+
+.tituloContacto {
+    @include h1;
+    background-color: $color-texto;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+input {
+    margin-left: 1rem;
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+}
+
+select {
+    margin-left: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    border-radius: 8px;
+    display: block;
+    width: 90%;
+    height: 50%;
+    margin-left: 1rem;
+}
+
+.btnContacto {
+    background-color: rgb(103, 111, 189);
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2%;
+    border: solid rgb(103, 111, 189) 8px;
+    margin-left: 4rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+
+.btnContacto:hover {
+    background-color: rgb(19, 19, 207);
+    color: #ffffff;
+}

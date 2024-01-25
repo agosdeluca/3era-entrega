@@ -1,0 +1,23 @@
+/*tienda.html*/
+
+
+.tituloProductos h1 {
+    @include h1;
+    background-color: $color-texto;
+  }
+  
+  .subtituloProductos {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 4px;
+    background-color: lightpink;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .contenedorCardsTienda {
+    background-color: $color-fondo;
+  }
+  
